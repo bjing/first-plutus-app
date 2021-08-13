@@ -4,6 +4,17 @@ This project gives a simple starter project for using the Plutus Platform.
 
 ## Setting up
 
+### GHC
+The quickest way to get started is to follow these instructions to install GHC: https://www.haskell.org/ghcup/
+
+Or if you are a [Stack](https://docs.haskellstack.org/en/stable/README/) user like me, 
+1. install Stack first, then
+  ```
+  stack install ghc
+  ```
+2. Put `~/.stack/programs/x86_64-osx/ghc-<your-version>/bin/` into your $PATH, so that `ghc` can be found when you do `cabal install` in this project.
+  If you are unsure of your compiler path, run `stack path | grep compiler-exe`.
+
 ### VSCode devcontainer
 
 Use the provided VSCode devcontainer to get an environment with the correct tools set up.
