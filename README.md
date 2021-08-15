@@ -5,9 +5,11 @@ This project gives a simple starter project for using the Plutus Platform.
 ## Setting up
 
 ### GHC
+As a [Haskell Stack](https://docs.haskellstack.org/en/stable/README/) user, I really don't like having global compiler/tool installations. They quickly get out of date and can causes issues if your various projects use different versions of GHC. However, since this project template doesn't use Stack, you have no choice unless you can set up a Stack project for this.
+
 The quickest way to get started is to follow these instructions to install GHC: https://www.haskell.org/ghcup/
 
-Or if you are a [Stack](https://docs.haskellstack.org/en/stable/README/) user like me, 
+Or if you are a Stack user like me, 
 1. install Stack first, then
   ```
   stack install ghc
